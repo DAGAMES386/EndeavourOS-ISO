@@ -328,3 +328,12 @@ c-ares
 electron29
 gtk3
 qt5-base
+
+## Local Repo
+vesktop-bin
+ventoy-bin
+acpi_ec-dkms-git
+bfind_command
+dirupdate
+gcommit_command
+mcontrolcenter-bin
