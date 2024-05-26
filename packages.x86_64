@@ -319,6 +319,9 @@ keepassxc
 ## Shells
 fish
 
+## System
+mokutil
+
 ## Other
 wine
 c-ares
