@@ -1,0 +1,14 @@
+pkgname="bfind_command"
+pkgver="1.0.2"
+pkgrel="1"
+pkgdesc="A simpler find command!"
+arch=("x86_64")
+license=("custom")
+source=("bfind.sh")
+sha512sums=("SKIP")
+
+package() {
+	mkdir -p "${pkgdir}/usr/bin/"
+	cp "${srcdir}/bfind.sh" "${pkgdir}/usr/bin/bfind"
+	chmod +x "${pkgdir}/usr/bin/bfind"
+}

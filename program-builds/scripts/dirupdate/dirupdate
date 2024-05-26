@@ -1,0 +1,7 @@
+#! /bin/bash
+
+if [[ $1 = "-t" ]]; then
+	watch -n 1 ls -1 -lht
+else
+	watch -n 1 ls -1 -lh
+fi

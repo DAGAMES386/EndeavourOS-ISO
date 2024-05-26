@@ -1,0 +1,14 @@
+pkgname="gcommit_command"
+pkgver="1.0.0"
+pkgrel="1"
+pkgdesc="A quick git commit command!"
+arch=("x86_64")
+license=("custom")
+source=("gcommit.sh")
+sha512sums=("SKIP")
+
+package() {
+	mkdir -p "${pkgdir}/usr/bin/"
+	cp "${srcdir}/gcommit.sh" "${pkgdir}/usr/bin/gcommit"
+	chmod +x "${pkgdir}/usr/bin/gcommit"
+}

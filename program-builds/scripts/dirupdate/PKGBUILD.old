@@ -1,0 +1,14 @@
+pkgname="dirupdate"
+pkgver="1.0.0"
+pkgrel="1"
+pkgdesc="A way to easily monitor a directory"
+arch=("x86_64")
+license=("custom")
+source=("dirupdate.sh")
+sha512sums=("SKIP")
+
+package() {
+	mkdir -p "${pkgdir}/usr/bin/"
+	cp "${srcdir}/dirupdate.sh" "${pkgdir}/usr/bin/dirupdate"
+	chmod +x "${pkgdir}/usr/bin/dirupdate"
+}

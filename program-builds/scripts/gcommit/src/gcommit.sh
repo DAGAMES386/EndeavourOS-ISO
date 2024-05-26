@@ -1,0 +1,1 @@
+/home/budge/build/scripts/gcommit/gcommit.sh

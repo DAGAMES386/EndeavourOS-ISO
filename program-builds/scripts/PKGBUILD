@@ -1,0 +1,17 @@
+pkgname=""
+
+scriptname=""
+
+pkgver="1.0.0"
+pkgrel="1"
+pkgdesc=""
+arch=("x86_64")
+license=("custom")
+source=("$scriptname")
+sha512sums=("SKIP")
+
+package() {
+	mkdir -p "${pkgdir}/usr/bin/"
+	cp "${srcdir}/$scriptname" "${pkygdir}/usr/bin/$scriptname"
+	chmod +x "${pkgdir}/usr/bin/$scriptname"
+}
