@@ -299,3 +299,28 @@ open-vm-tools
 xf86-input-vmmouse
 xf86-video-vmware
 xf86-video-qxl
+
+# EXTRA BUDGE
+
+## Communication
+signal-desktop
+
+## Emulation
+virt-manager
+qemu-full
+
+## Utility
+partitionmanager
+efibootmgr
+github-cli
+util-linux
+
+## Shells
+fish
+
+## Other
+wine
+c-ares
+electron29
+gtk3
+qt5-base
