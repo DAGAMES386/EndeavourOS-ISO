@@ -1,4 +1,5 @@
 # EndeavourOS-ISO
+## NOTE: this is my own spin on it. not much is changed but the packages installed.
 
 [![Maintenance](https://img.shields.io/maintenance/yes/2024.svg)]()
 
