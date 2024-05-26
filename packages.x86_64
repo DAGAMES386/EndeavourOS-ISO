@@ -314,6 +314,7 @@ partitionmanager
 efibootmgr
 github-cli
 util-linux
+keepassxc
 
 ## Shells
 fish

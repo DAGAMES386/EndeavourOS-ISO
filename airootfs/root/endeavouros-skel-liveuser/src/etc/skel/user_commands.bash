@@ -56,7 +56,7 @@ _PostInstallCommands() {
 
     ## Now your commands. Some examples:
     #
-    # echo "## Hello world!"           >> /home/$username/.bashrc
+    echo "## Hello world!"           >> /home/$username/.bashrc
     # echo "export FUNCNEST=100"       >> /home/$username/.bashrc
     # echo "alias pacdiff=eos-pacdiff" >> /home/$username/.bashrc
     # chmod $username:$username           /home/$username/.bashrc
