@@ -6,4 +6,4 @@ rm -rf airootfs/root/endeavouros-skel-liveuser/pkg
 # rm airootfs/root/endeavouros-wallpaper.png
 rm airootfs/root/endeavouros-skel-liveuser/*.pkg.tar.zst
 # rm -rf airootfs/etc/pacman.d/
-# rm eosiso*.log
+rm eosiso*.log
